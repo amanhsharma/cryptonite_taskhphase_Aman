@@ -74,3 +74,13 @@ PATH=/run/challenge/bin:/run/workspace/bin:/usr/local/sbin:/usr/local/bin:/usr/s
 DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-9umSrykQ72,guid=40a13574a22fdcca3b1711dc670bf34d
 _=/run/workspace/bin/env
 ```
+
+### Storing Command Output
+In this challenge, we learnt how to store the output of some command into some variable. We can do it using ``
+```
+hacker@variables~storing-command-output:~$ PWN=$(/challenge/run)
+Congratulations! You have read the flag into the PWN variable. Now print it out 
+and submit it!
+hacker@variables~storing-command-output:~$ echo $PWN
+pwn.college{QHA_qiYAD0LZYjSZLmn28bp7DRm.dVzN0UDL0ITO0czW}
+```

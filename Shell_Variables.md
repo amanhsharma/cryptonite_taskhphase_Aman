@@ -1,4 +1,8 @@
 # Shell Variables
-<br>
+
 ### Printing Variables
-The main objective of this challange is to get the flag without using `challenge/run`
+```
+hacker@variables~printing-variables:~$ echo $FLAG
+pwn.college{QknttbAE8n1WQydkWBp9RB_3LZ7.ddTN1QDL0ITO0czW}
+
+```

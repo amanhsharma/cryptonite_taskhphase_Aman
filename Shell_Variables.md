@@ -97,3 +97,9 @@ pwn.college{UXOk-OBdNR6fLogMviYMVyB41DR.dhzN1QDL0ITO0czW}
 ```
 
 ### Reading Files
+In this challenge, we learnt how to redirect output of some file as the standard input of `read`
+```
+hacker@variables~reading-files:~$ read PWN < /challenge/read_me
+You've set the PWN variable properly! As promised, here is the flag:
+pwn.college{I4mHvBJIrB3taLcppQLV-MB47CW.dBjM4QDL0ITO0czW}
+```

@@ -84,3 +84,16 @@ and submit it!
 hacker@variables~storing-command-output:~$ echo $PWN
 pwn.college{QHA_qiYAD0LZYjSZLmn28bp7DRm.dVzN0UDL0ITO0czW}
 ```
+
+### Reading Input
+In this challenge, we learnt how to take input from user using the `read` command
+```
+hacker@variables~reading-input:~$ echo $PWN
+
+hacker@variables~reading-input:~$ read PWN
+COLLEGE
+You've set the PWN variable properly! As promised, here is the flag:
+pwn.college{UXOk-OBdNR6fLogMviYMVyB41DR.dhzN1QDL0ITO0czW}
+```
+
+### Reading Files

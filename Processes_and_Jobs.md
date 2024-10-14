@@ -1,7 +1,7 @@
 # Processes and Jobs
 
 ### Listing Processes
-In this challenge, we learnt `ps` command. This commands lists the processes running in the terminal. There are two ways to specify the argument: `ps-ef` and `ps-aux`
+In this challenge, we learnt `ps` command. This commands lists the processes running in the terminal. There are two ways to specify the argument: `ps -ef` and `ps -aux`
 ```
 hacker@processes~listing-processes:~$ ps -ef
 UID          PID    PPID  C STIME TTY          TIME CMD

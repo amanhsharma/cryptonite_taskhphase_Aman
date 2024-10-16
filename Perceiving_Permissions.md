@@ -31,9 +31,24 @@ pwn.college{YLAkSDTRwQKY5njRfHwWql-OYsN.dJzNyUDL0ITO0czW}
 ```
 
 ### Changing Permissions
+In this challenge, we learnt how to change the permissions for user using the `chmod` command
 
 ```
 hacker@permissions~changing-permissions:~$ chmod ugo+rwx /flag
 hacker@permissions~changing-permissions:~$ cat /flag
 pwn.college{YHU84bzuOdW8oscB3LG5UlzTNxw.dNzNyUDL0ITO0czW}
+```
+
+### Executable Files
+In this challenge, we learnt how to allow user to execute a file using `chmod` command with `x`
+```
+hacker@permissions~executable-files:~$ chmod u+x /challenge/run
+hacker@permissions~executable-files:~$ /challenge/run
+Successful execution! Here is your flag:
+pwn.college{EVl0K0sLk_Nt8wA5VhQK4-dgh6d.dJTM2QDL0ITO0czW}
+```
+
+### Permission Tweaking Practice
+```
+
 ```

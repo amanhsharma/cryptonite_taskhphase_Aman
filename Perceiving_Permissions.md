@@ -1,12 +1,12 @@
 # Perceiving Permissions
 
 ### Changing File Ownership
-In this challenge, we learnt how to change the ownership of the file using `chown` command and read the properties of files using `ls -1` command
+In this challenge, we learnt how to change the ownership of the file using `chown` command and read the properties of files using `ls -l` command
 ```
-hacker@permissions~changing-file-ownership:~$ ls -1 /flag
+hacker@permissions~changing-file-ownership:~$ ls -l /flag
 /flag
 hacker@permissions~changing-file-ownership:~$ chown hacker /flag
-hacker@permissions~changing-file-ownership:~$ ls -1 /flag
+hacker@permissions~changing-file-ownership:~$ ls -l /flag
 /flag
 hacker@permissions~changing-file-ownership:~$ cat /flag
 pwn.college{QNia8SL7HQLiJg8fvk8D-aZGaYf.dFTM2QDL0ITO0czW}
